@@ -1,9 +1,9 @@
-module API
+module Api
   module V1
-    class UsersController < ApplicationController
+    class PostsController < ApplicationController
 
       def index
-        render json: Post.all
+        render json: Post.all, include: { comments: [:replies] }
       end
 
     end

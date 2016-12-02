@@ -1,6 +1,6 @@
-module API
+module Api
   module V1
-    class UsersController < ApplicationController
+    class CommentsController < ApplicationController
 
       def index
         render json: Comment.all

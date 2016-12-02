@@ -1,6 +1,6 @@
-module API
+module Api
   module V1
-    class UsersController < ApplicationController
+    class MessagesController < ApplicationController
 
       def index
         render json: Message.all
