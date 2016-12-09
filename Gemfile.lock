@@ -27,7 +27,7 @@ GEM
     active_model_serializers (0.10.3)
       actionpack (>= 4.1, < 6)
       activemodel (>= 4.1, < 6)
-      jsonapi (= 0.1.1.beta5)
+      jsonapi (= 0.1.1.beta2)
     activejob (5.0.0.1)
       activesupport (= 5.0.0.1)
       globalid (>= 0.3.6)
